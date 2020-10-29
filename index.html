@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body onload="load();">
+<body onload="load();" >
     <div class="bg-white center" id="opener"><img src="./img/load.gif"></div>
-    <div class="main-cover">
+    <div class="main-cover" id="body">
         <nav class="nav-bar">
             <ul>
                 <li class="nav-icon" onclick="Selectionvid(); content(this.id);" id="Selection">Selection Sort</li>
@@ -20,6 +20,7 @@
             </ul>
         </nav>
     </div>
+    <div class="pop" data-aos="fade-up"><p>•If the sorting pauses it between it is due to internet issues<br><br>•If the sorting pauses and does not continue please click on the same sorting icon to resume</p></div>
     <section>
         <div class="bar-area">
             <div class="graph space" id="graph" data-aos="fade-up">

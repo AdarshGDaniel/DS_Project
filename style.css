@@ -160,3 +160,21 @@ footer{
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
+.pop{
+    z-index: +5;
+    left: 50px;
+    border-top: 2px solid rgb(22, 22, 22);
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+    height: auto;
+    padding: 30px;
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.notvis{
+    visibility: hidden;
+}
