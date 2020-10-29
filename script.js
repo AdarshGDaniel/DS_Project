@@ -10,7 +10,14 @@ function Selectionvid(){
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
-
+    vid1.pause();
+    vid1.currentTime = 0;
+    vid2.pause();
+    vid2.currentTime = 0;
+    vid3.pause();
+    vid3.currentTime = 0;
+    vid4.pause();
+    vid4.currentTime = 0;
     vid.classList.add('showvid');
     vid.classList.remove('hide');
     vid1.classList.remove('showvid');
@@ -34,7 +41,14 @@ function Bubblevid(){
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
-
+    vid1.pause();
+    vid1.currentTime = 0;
+    vid2.pause();
+    vid2.currentTime = 0;
+    vid3.pause();
+    vid3.currentTime = 0;
+    vid4.pause();
+    vid4.currentTime = 0;
     vid.classList.add('showvid');
     vid.classList.remove('hide');
     vid1.classList.remove('showvid');
@@ -58,7 +72,14 @@ function Insertionvid(){
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
-
+    vid1.pause();
+    vid1.currentTime = 0;
+    vid2.pause();
+    vid2.currentTime = 0;
+    vid3.pause();
+    vid3.currentTime = 0;
+    vid4.pause();
+    vid4.currentTime = 0;
     vid.classList.add('showvid');
     vid.classList.remove('hide');
     vid1.classList.remove('showvid');
@@ -82,7 +103,14 @@ function Mergevid(){
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
-
+    vid1.pause();
+    vid1.currentTime = 0;
+    vid2.pause();
+    vid2.currentTime = 0;
+    vid3.pause();
+    vid3.currentTime = 0;
+    vid4.pause();
+    vid4.currentTime = 0;
     vid.classList.add('showvid');
     vid.classList.remove('hide');
     vid1.classList.remove('showvid');
@@ -106,7 +134,14 @@ function Quickvid(){
     const vid4 = document.getElementById('Merge_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
-
+    vid1.pause();
+    vid1.currentTime = 0;
+    vid2.pause();
+    vid2.currentTime = 0;
+    vid3.pause();
+    vid3.currentTime = 0;
+    vid4.pause();
+    vid4.currentTime = 0;
     vid.classList.add('showvid');
     vid.classList.remove('hide');
     vid1.classList.remove('showvid');
