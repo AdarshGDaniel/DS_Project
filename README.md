@@ -4,6 +4,6 @@
 <p>This Project uses JS for some modifications and css for designing!</p>
 
 <p>use the following link to get a quick preview</p>
-<snipet>https://adarshgdaniel.github.io/DS_Project/</snipet>
+<code>https://adarshgdaniel.github.io/DS_Project/</code>
 
 
