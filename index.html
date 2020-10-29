@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../helo/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-cover">
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-icon" onclick="play(this.id); content(this.id);" id="Selection">Selection Sort</li>
+                <li class="nav-icon" onclick="play(this.id); content(this.id);" id="Bubble">Bubble Sort</li>
+                <li class="nav-icon" onclick="play(this.id); content(this.id);" id="Insertion">Insertion Sort</li>
+                <li class="nav-icon" onclick="play(this.id); content(this.id);" id="Merge">Merge Sort</li>
+                <li class="nav-icon" onclick="play(this.id); content(this.id);" id="Quick">Quick Sort</li>
+            </ul>
+        </nav>
+    </div>
+    <section>
+        <div class="bar-area">
+            <div class="graph space" id="graph" data-aos="fade-up">
+                <div class="space">
+                    <h1 >Click one of the sorting algorithm to continue</h1>
+                    <h1>😋 ✌️</h1>
+                </div>
+            </div>
+            <div class="box" id="box"></div>
+        </div>
+    </section>
+    <footer>
+        <span>Made with <img draggable="false" role="img" class="emoji" alt="❤️" src="https://s.w.org/images/core/emoji/13.0.0/svg/2764.svg"> by Adarsh G Daniel</span>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
