@@ -12,15 +12,15 @@
     <div class="main-cover" id="body">
         <nav class="nav-bar">
             <ul>
-                <li class="nav-icon" onclick="Selectionvid(); content(this.id);" id="Selection">Selection Sort</li>
-                <li class="nav-icon" onclick="Bubblevid(); content(this.id);" id="Bubble">Bubble Sort</li>
-                <li class="nav-icon" onclick="Insertionvid(); content(this.id);" id="Insertion">Insertion Sort</li>
-                <li class="nav-icon" onclick="Mergevid(); content(this.id);" id="Merge">Merge Sort</li>
-                <li class="nav-icon" onclick="Quickvid(); content(this.id);" id="Quick">Quick Sort</li>
+                <li class="nav-icon" onclick="Selectionvid(this.id); content(this.id);" id="Selection">Selection Sort</li>
+                <li class="nav-icon" onclick="Bubblevid(this.id); content(this.id);" id="Bubble">Bubble Sort</li>
+                <li class="nav-icon" onclick="Insertionvid(this.id); content(this.id);" id="Insertion">Insertion Sort</li>
+                <li class="nav-icon" onclick="Mergevid(this.id); content(this.id);" id="Merge">Merge Sort</li>
+                <li class="nav-icon" onclick="Quickvid(this.id); content(this.id);" id="Quick">Quick Sort</li>
             </ul>
         </nav>
     </div>
-    <div class="pop" data-aos="fade-up"><p>•If the sorting pauses it between it is due to internet issues<br><br>•If the sorting pauses and does not continue please click on the same sorting icon to resume</p></div>
+    <div class="pop" data-aos="fade-up"><p>If the sorting pauses it between it is due to internet issues<br><p id="blink">••••••</p></p></div>
     <section>
         <div class="bar-area">
             <div class="graph space" id="graph" data-aos="fade-up">

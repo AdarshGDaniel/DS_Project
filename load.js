@@ -12,3 +12,12 @@ function load(){
     }, 4000);
 }
 
+const blink = document.getElementById('blink');
+setInterval(() => {
+    if(blink.classList.contains('blink')){
+        blink.classList.remove('blink');
+    }
+    else{
+        blink.classList.add('blink');
+    }
+}, 200);

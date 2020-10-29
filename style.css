@@ -178,3 +178,12 @@ footer{
 .notvis{
     visibility: hidden;
 }
+
+.active{
+    background-color: white;
+    color: rgb(104, 71, 0);
+}
+
+.blink{
+    color: red;
+}

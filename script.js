@@ -1,8 +1,21 @@
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 const graph = document.getElementById('graph');
+const nav = document.getElementById('graph');
+
 
 function Selectionvid(){
+    const nav = document.getElementById('Selection');
+    const nav1 = document.getElementById('Bubble');
+    const nav2 = document.getElementById('Insertion');
+    const nav3 = document.getElementById('Merge');
+    const nav4 = document.getElementById('Quick');
+    nav.classList.add('active');
+    nav1.classList.remove('active');
+    nav2.classList.remove('active');
+    nav3.classList.remove('active');
+    nav4.classList.remove('active');
+
     const vid = document.getElementById('Selection_vid');
     const vid1 = document.getElementById('Bubble_vid');
     const vid2 = document.getElementById('Insertion_vid');
@@ -29,11 +42,19 @@ function Selectionvid(){
     vid4.classList.remove('showvid');
     vid4.classList.add('hide');
     vid.play();
-    setTimeout(() => {
-        vid.pause();
-    }, 60000);
 }
 function Bubblevid(){
+    const nav1 = document.getElementById('Selection');
+    const nav = document.getElementById('Bubble');
+    const nav2 = document.getElementById('Insertion');
+    const nav3 = document.getElementById('Merge');
+    const nav4 = document.getElementById('Quick');
+    nav.classList.add('active');
+    nav1.classList.remove('active');
+    nav2.classList.remove('active');
+    nav3.classList.remove('active');
+    nav4.classList.remove('active');
+
     const vid = document.getElementById('Bubble_vid');
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Insertion_vid');
@@ -60,11 +81,19 @@ function Bubblevid(){
     vid4.classList.remove('showvid');
     vid4.classList.add('hide');
     vid.play();
-    setTimeout(() => {
-        vid.pause();
-    }, 60000);
 }
 function Insertionvid(){
+    const nav2 = document.getElementById('Selection');
+    const nav1 = document.getElementById('Bubble');
+    const nav = document.getElementById('Insertion');
+    const nav3 = document.getElementById('Merge');
+    const nav4 = document.getElementById('Quick');
+    nav.classList.add('active');
+    nav1.classList.remove('active');
+    nav2.classList.remove('active');
+    nav3.classList.remove('active');
+    nav4.classList.remove('active');
+
     const vid = document.getElementById('Insertion_vid');
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
@@ -91,11 +120,19 @@ function Insertionvid(){
     vid4.classList.remove('showvid');
     vid4.classList.add('hide');
     vid.play();
-    setTimeout(() => {
-        vid.pause();
-    }, 60000);
 }
 function Mergevid(){
+    const nav3 = document.getElementById('Selection');
+    const nav1 = document.getElementById('Bubble');
+    const nav2 = document.getElementById('Insertion');
+    const nav = document.getElementById('Merge');
+    const nav4 = document.getElementById('Quick');
+    nav.classList.add('active');
+    nav1.classList.remove('active');
+    nav2.classList.remove('active');
+    nav3.classList.remove('active');
+    nav4.classList.remove('active');
+
     const vid = document.getElementById('Merge_vid');
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
@@ -122,11 +159,19 @@ function Mergevid(){
     vid4.classList.remove('showvid');
     vid4.classList.add('hide');
     vid.play();
-    setTimeout(() => {
-        vid.pause();
-    }, 60000);
 }
 function Quickvid(){
+    const nav4 = document.getElementById('Selection');
+    const nav1 = document.getElementById('Bubble');
+    const nav2 = document.getElementById('Insertion');
+    const nav3 = document.getElementById('Merge');
+    const nav = document.getElementById('Quick');
+    nav.classList.add('active');
+    nav1.classList.remove('active');
+    nav2.classList.remove('active');
+    nav3.classList.remove('active');
+    nav4.classList.remove('active');
+
     const vid = document.getElementById('Quick_vid');
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
@@ -153,9 +198,6 @@ function Quickvid(){
     vid4.classList.remove('showvid');
     vid4.classList.add('hide');
     vid.play();
-    setTimeout(() => {
-        vid.pause();
-    }, 60000);
 }
 
 function content(id){
