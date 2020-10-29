@@ -148,3 +148,15 @@ footer{
 .hiding{
     position: fixed;
 }
+.bg-white{
+    z-index: +5;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.center{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
