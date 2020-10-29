@@ -12,30 +12,44 @@
     <div class="main-cover" id="body">
         <nav class="nav-bar">
             <ul>
-                <li class="nav-icon" onclick="Selectionvid(this.id); content(this.id);" id="Selection">Selection Sort</li>
-                <li class="nav-icon" onclick="Bubblevid(this.id); content(this.id);" id="Bubble">Bubble Sort</li>
-                <li class="nav-icon" onclick="Insertionvid(this.id); content(this.id);" id="Insertion">Insertion Sort</li>
-                <li class="nav-icon" onclick="Mergevid(this.id); content(this.id);" id="Merge">Merge Sort</li>
-                <li class="nav-icon" onclick="Quickvid(this.id); content(this.id);" id="Quick">Quick Sort</li>
+                <li class="nav-icon" onclick="Selectionvid(this.id); content(this.id); height();" id="Selection">Selection Sort</li>
+                <li class="nav-icon" onclick="Bubblevid(this.id); content(this.id); height();" id="Bubble">Bubble Sort</li>
+                <li class="nav-icon" onclick="Insertionvid(this.id); content(this.id); height();" id="Insertion">Insertion Sort</li>
+                <li class="nav-icon" onclick="Mergevid(this.id); content(this.id); height();" id="Merge">Merge Sort</li>
+                <li class="nav-icon" onclick="Quickvid(this.id); content(this.id); height();" id="Quick">Quick Sort</li>
+            </ul>
+        </nav>
+        <nav class="nav-bar3">
+            <ul>
+                <li class="nav-icon" onclick="navshow();">Select Algo ☰</li>
+            </ul>
+        </nav>
+        <nav class="nav-bar2" id="nav-bar2">
+            <ul>
+                <li class="nav-icon" onclick="closex();">X</li>
+                <li class="nav-icon" onclick="Selectionvid(this.id); content(this.id); height();" id="Selection">Selection Sort</li>
+                <li class="nav-icon" onclick="Bubblevid(this.id); content(this.id); height();" id="Bubble">Bubble Sort</li>
+                <li class="nav-icon" onclick="Insertionvid(this.id); content(this.id); height();" id="Insertion">Insertion Sort</li>
+                <li class="nav-icon" onclick="Mergevid(this.id); content(this.id); height();" id="Merge">Merge Sort</li>
+                <li class="nav-icon" onclick="Quickvid(this.id); content(this.id); height();" id="Quick">Quick Sort</li>
             </ul>
         </nav>
     </div>
-    <div class="pop" data-aos="fade-up"><p>If the sorting pauses it between it is due to internet issues<br><p id="blink">••••••</p></p></div>
     <section>
         <div class="bar-area">
-            <div class="graph space" id="graph" data-aos="fade-up">
-                <div class="space">
+            <div class="graph" id="graph" data-aos="fade-up">
+                <div class="space" id="space">
                     <video class="hide" src='./vid/Selection Sort.mp4' id='Selection_vid' preload="metadata"></video>
                     <video class="hide" src='./vid/Bubble Sort.mp4' id='Bubble_vid' preload="metadata"></video>
                     <video class="hide" src='./vid/Insertion Sort.mp4' id='Insertion_vid' preload="metadata"></video>
                     <video class="hide" src='./vid/Merge Sort.mp4' id='Merge_vid' preload="metadata"></video>
                     <video class="hide" src='./vid/Quick Sort.mp4' id='Quick_vid' preload="metadata"></video>
-                    <span id="hid">
-                        <h1 >Click one of the sorting algorithm to continue</h1>
-                        <h1 >😋 ✌️</h1>    
+                    <span id="hid" class="center fullwh">
+                        <h1 >Click one of the sorting algorithm to continue<br>😋 ✌️</h1>
                     </span>
                 </div>
             </div>
+            <div class="pop" data-aos="fade-up"><p>If the sorting pauses it between it is due to internet issues<br><p id="blink">••••••</p></p></div>
             <div class="box" id="box"></div>
         </div>
     </section>

@@ -1,4 +1,4 @@
-document.addEventListener('contextmenu', event => event.preventDefault());
+//document.addEventListener('contextmenu', event => event.preventDefault());
 
 const graph = document.getElementById('graph');
 const nav = document.getElementById('graph');
@@ -17,12 +17,15 @@ function Selectionvid(){
     nav4.classList.remove('active');
 
     const vid = document.getElementById('Selection_vid');
+    document.getElementById("Selection_vid").controls = false;
     const vid1 = document.getElementById('Bubble_vid');
     const vid2 = document.getElementById('Insertion_vid');
     const vid3 = document.getElementById('Merge_vid');
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
+    vid5.classList.remove('center');
+    vid5.classList.remove('fullwh');
     vid1.pause();
     vid1.currentTime = 0;
     vid2.pause();
@@ -56,12 +59,15 @@ function Bubblevid(){
     nav4.classList.remove('active');
 
     const vid = document.getElementById('Bubble_vid');
+    document.getElementById("Bubble_vid").controls = false;
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Insertion_vid');
     const vid3 = document.getElementById('Merge_vid');
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
+    vid5.classList.remove('center');
+    vid5.classList.remove('fullwh');
     vid1.pause();
     vid1.currentTime = 0;
     vid2.pause();
@@ -95,12 +101,15 @@ function Insertionvid(){
     nav4.classList.remove('active');
 
     const vid = document.getElementById('Insertion_vid');
+    document.getElementById("Insertion_vid").controls = false;
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
     const vid3 = document.getElementById('Merge_vid');
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
+    vid5.classList.remove('center');
+    vid5.classList.remove('fullwh');
     vid1.pause();
     vid1.currentTime = 0;
     vid2.pause();
@@ -134,12 +143,15 @@ function Mergevid(){
     nav4.classList.remove('active');
 
     const vid = document.getElementById('Merge_vid');
+    document.getElementById("Merge_vid").controls = false;
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
     const vid3 = document.getElementById('Insertion_vid');
     const vid4 = document.getElementById('Quick_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
+    vid5.classList.remove('center');
+    vid5.classList.remove('fullwh');
     vid1.pause();
     vid1.currentTime = 0;
     vid2.pause();
@@ -173,12 +185,15 @@ function Quickvid(){
     nav4.classList.remove('active');
 
     const vid = document.getElementById('Quick_vid');
+    document.getElementById("Quick_vid").controls = false;
     const vid1 = document.getElementById('Selection_vid');
     const vid2 = document.getElementById('Bubble_vid');
     const vid3 = document.getElementById('Insertion_vid');
     const vid4 = document.getElementById('Merge_vid');
     const vid5 = document.getElementById('hid');
     vid5.innerHTML = " ";
+    vid5.classList.remove('center');
+    vid5.classList.remove('fullwh');
     vid1.pause();
     vid1.currentTime = 0;
     vid2.pause();

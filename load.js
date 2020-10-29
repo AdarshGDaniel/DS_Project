@@ -21,3 +21,21 @@ setInterval(() => {
         blink.classList.add('blink');
     }
 }, 200);
+
+function height(){
+    const space = document.getElementById('space');
+    space.style = 'height:auto !important';
+}
+
+const navbar = document.getElementById('nav-bar2');
+function navshow(){
+    if(navbar.classList.contains('drop')){
+        navbar.classList.remove('drop');
+    }
+    else{
+        navbar.classList.add('drop');
+    }
+}
+function closex(){
+    navbar.classList.remove('drop');
+}
