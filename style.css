@@ -130,3 +130,21 @@ footer{
     color: rgb(78, 78, 78);
     background: rgb(224, 183, 0);
   }
+
+.hide{
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-5000px);
+    visibility: hidden;
+}
+
+.showvid{
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+}
+.hiding{
+    position: fixed;
+}

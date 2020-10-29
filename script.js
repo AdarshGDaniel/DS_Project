@@ -2,10 +2,121 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 
 const graph = document.getElementById('graph');
 
+function Selectionvid(){
+    const vid = document.getElementById('Selection_vid');
+    const vid1 = document.getElementById('Bubble_vid');
+    const vid2 = document.getElementById('Insertion_vid');
+    const vid3 = document.getElementById('Merge_vid');
+    const vid4 = document.getElementById('Quick_vid');
+    const vid5 = document.getElementById('hid');
+    vid5.innerHTML = " ";
 
-function play(id){
-    graph.innerHTML = "<video src='./vid/"+id+" Sort.mp4' id='vid' preload></video>";
-    const vid = document.getElementById('vid');
+    vid.classList.add('showvid');
+    vid.classList.remove('hide');
+    vid1.classList.remove('showvid');
+    vid1.classList.add('hide');
+    vid2.classList.remove('showvid');
+    vid2.classList.add('hide');
+    vid3.classList.remove('showvid');
+    vid3.classList.add('hide');
+    vid4.classList.remove('showvid');
+    vid4.classList.add('hide');
+    vid.play();
+    setTimeout(() => {
+        vid.pause();
+    }, 60000);
+}
+function Bubblevid(){
+    const vid = document.getElementById('Bubble_vid');
+    const vid1 = document.getElementById('Selection_vid');
+    const vid2 = document.getElementById('Insertion_vid');
+    const vid3 = document.getElementById('Merge_vid');
+    const vid4 = document.getElementById('Quick_vid');
+    const vid5 = document.getElementById('hid');
+    vid5.innerHTML = " ";
+
+    vid.classList.add('showvid');
+    vid.classList.remove('hide');
+    vid1.classList.remove('showvid');
+    vid1.classList.add('hide');
+    vid2.classList.remove('showvid');
+    vid2.classList.add('hide');
+    vid3.classList.remove('showvid');
+    vid3.classList.add('hide');
+    vid4.classList.remove('showvid');
+    vid4.classList.add('hide');
+    vid.play();
+    setTimeout(() => {
+        vid.pause();
+    }, 60000);
+}
+function Insertionvid(){
+    const vid = document.getElementById('Insertion_vid');
+    const vid1 = document.getElementById('Selection_vid');
+    const vid2 = document.getElementById('Bubble_vid');
+    const vid3 = document.getElementById('Merge_vid');
+    const vid4 = document.getElementById('Quick_vid');
+    const vid5 = document.getElementById('hid');
+    vid5.innerHTML = " ";
+
+    vid.classList.add('showvid');
+    vid.classList.remove('hide');
+    vid1.classList.remove('showvid');
+    vid1.classList.add('hide');
+    vid2.classList.remove('showvid');
+    vid2.classList.add('hide');
+    vid3.classList.remove('showvid');
+    vid3.classList.add('hide');
+    vid4.classList.remove('showvid');
+    vid4.classList.add('hide');
+    vid.play();
+    setTimeout(() => {
+        vid.pause();
+    }, 60000);
+}
+function Mergevid(){
+    const vid = document.getElementById('Merge_vid');
+    const vid1 = document.getElementById('Selection_vid');
+    const vid2 = document.getElementById('Bubble_vid');
+    const vid3 = document.getElementById('Insertion_vid');
+    const vid4 = document.getElementById('Quick_vid');
+    const vid5 = document.getElementById('hid');
+    vid5.innerHTML = " ";
+
+    vid.classList.add('showvid');
+    vid.classList.remove('hide');
+    vid1.classList.remove('showvid');
+    vid1.classList.add('hide');
+    vid2.classList.remove('showvid');
+    vid2.classList.add('hide');
+    vid3.classList.remove('showvid');
+    vid3.classList.add('hide');
+    vid4.classList.remove('showvid');
+    vid4.classList.add('hide');
+    vid.play();
+    setTimeout(() => {
+        vid.pause();
+    }, 60000);
+}
+function Quickvid(){
+    const vid = document.getElementById('Quick_vid');
+    const vid1 = document.getElementById('Selection_vid');
+    const vid2 = document.getElementById('Bubble_vid');
+    const vid3 = document.getElementById('Insertion_vid');
+    const vid4 = document.getElementById('Merge_vid');
+    const vid5 = document.getElementById('hid');
+    vid5.innerHTML = " ";
+
+    vid.classList.add('showvid');
+    vid.classList.remove('hide');
+    vid1.classList.remove('showvid');
+    vid1.classList.add('hide');
+    vid2.classList.remove('showvid');
+    vid2.classList.add('hide');
+    vid3.classList.remove('showvid');
+    vid3.classList.add('hide');
+    vid4.classList.remove('showvid');
+    vid4.classList.add('hide');
     vid.play();
     setTimeout(() => {
         vid.pause();
