@@ -4,7 +4,7 @@ const graph = document.getElementById('graph');
 
 
 function play(id){
-    graph.innerHTML = "<video src='./vid/"+id+" Sort.mp4' id='vid'></video>";
+    graph.innerHTML = "<video src='./vid/"+id+" Sort.mp4' id='vid' preload></video>";
     const vid = document.getElementById('vid');
     vid.play();
     setTimeout(() => {
